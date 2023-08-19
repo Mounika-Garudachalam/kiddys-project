@@ -1,0 +1,47 @@
+@import url('https:use.fontawesome.com/releases/v6.3.0/js/all.js');
+
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css');
+
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js'); 
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bpptstrap.min.js');
+
+h1{
+    font-weight: bold;
+    color:brown;
+    
+}
+
+/*navbar*/
+.navbar-brand{
+    font-family:Ubuntu; font-size:3rem; font-weight:bold;
+}
+
+.nav-item{
+    padding: 0 18px
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: "Montserrat-light";
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-custom{
+    background-color: beige;
+}
+.flex{
+  display:flex;
+  gap: 4rem;
+}
+.flex-col{
+  flex-direction:column;
+}
+/*buttons*/
+.gradient-custom{
+    background-color: brown;
+}
+/*footer*/
+#footer{
+    text-align: center;
+    padding: 3% 15%;
+}
