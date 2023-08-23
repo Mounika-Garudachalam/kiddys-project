@@ -1,5 +1,7 @@
 import React from "react";
+//image
 import image from "./images/image.jpeg";
+//font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
@@ -9,7 +11,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 function Loginform(){
     return (
        
-        <section style={{backgroundColor: "white", color:"brown", fontFamily: "Arial"}}>
+        <section style={{backgroundColor: "white", color:"blue", fontFamily: "Arial"}}>
         <div className="container-fluid" style={{padding:"3% 15%"}}>
             
             <nav className="navbar navbar-expand-lg navbar-light navbar-text">
@@ -44,7 +46,7 @@ function Loginform(){
                     <div className="form-outline mt-4 mb-4">
                         <div className="input-group">
                             <div className="input-group-prepend">
-                                  <div className="input-group-text" style={{color:"brown"}}>@</div>
+                                  <div className="input-group-text" style={{color:"blue"}}>@</div>
                             </div>
                         <input className="form-control" id="username" type="Username" placeholder="Username"/>
                         </div>
@@ -53,7 +55,7 @@ function Loginform(){
                     <div className="form-outline mb-4">
                     <div className="input-group">
                         <div className="input-group-prepend">
-                              <div className="input-group-text" style={{color: "brown"}}>@</div>
+                              <div className="input-group-text" style={{color: "blue"}}>@</div>
                         </div>
                         <input className="form-control" id="password" type="Password" placeholder="Password"/>
                         </div>
@@ -67,7 +69,7 @@ function Loginform(){
                     </div>
                      <div className="d-flex align-items-center justify-content-center">
                         <p className="mb-0 me-2">Don't have an account?</p>
-                        <button type="button" className="btn btn-outline-danger">Create New</button>
+                        <button type="button" className="btn btn-outline-primary">Create New</button>
                     </div>
                     
                 </form>
