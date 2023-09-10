@@ -1,5 +1,5 @@
 //css
-import '../App.css';
+// import '../App.css';
 //data
 const data = [
     { Date:"1 Jan" , Name:"New Year's Day"},

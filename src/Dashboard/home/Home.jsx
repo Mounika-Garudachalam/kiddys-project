@@ -1,6 +1,6 @@
 import React from "react";
 //css
-import '../App.css';
+// import '../App.css';
 //card components
 import Card3 from "./Card3";
 import Card1 from "./Card1";
@@ -30,10 +30,16 @@ import { faIndianRupeeSign } from "@fortawesome/free-solid-svg-icons";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 
 
+import Sidebar from "../sidebar/Sidebar";
 
-function Content(){
+
+function Home(){
     return (
+    <div>
+   
+    <Sidebar />
     <div className="content">
+        
         <Container>
         <Row>
         {/* card1 */}
@@ -64,8 +70,9 @@ function Content(){
         </Row>
         </Container>
      </div>
+     </div>
     );
 }
 
-export default Content;
+export default Home;
 

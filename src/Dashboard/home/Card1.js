@@ -1,7 +1,7 @@
 
 import React from "react";
 //css
-import "../App.css";
+// import "../App.css";
 
   function Card1(){
     return (

@@ -3,13 +3,14 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons";
 // css
-import '../App.css'; 
+// import '../App.css'; 
 // image
 import logo from "./images/logo.jpg";
 
 
 function Navbar(){
     return (
+        <section style={{backgroundColor: "white", color:"blue", fontFamily: "Arial", position:"relative"}}>
         <nav className="nav">
             
             <div className="logo">
@@ -23,6 +24,7 @@ function Navbar(){
             </div>
             
         </nav>
+        </section>
     );
 }
 
