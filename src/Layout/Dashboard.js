@@ -1,25 +1,30 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
+import { Component } from "react";
 //navbar
 import Navbar from "../Dashboard/navbar/Navbar.jsx";
 //sidebar
 import Sidebar from "../Dashboard/sidebar/Sidebar.jsx";
-import Loginform from "../Login/Loginform.jsx";
+import { Outlet } from "react-router-dom";
 
-export default function Dashboard() {
+
+
+class  Dashboard extends Component {
+    render(){
     return (
         
         <React.Fragment>
         <div className="Dashboard">
             <Navbar />
-            <Outlet />
+            <Outlet/>
             <Sidebar />
         </div>
         </React.Fragment>
         
     );
 }
-
+}
+export default Dashboard;
 
 
 

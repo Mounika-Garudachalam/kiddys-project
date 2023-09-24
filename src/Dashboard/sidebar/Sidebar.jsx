@@ -25,7 +25,7 @@ function Sidebar(){
             
                <Menu>
 
-                    <MenuItem className="side"  component={<Link to="/Dashboard/home"/>}>
+                    <MenuItem className="side"  component={<Link to="/home"/>}>
                         <FontAwesomeIcon icon={faHouse} />
                         Home
                        {/* <Link to="/" /> */}
@@ -51,7 +51,7 @@ function Sidebar(){
                        {/* <Link to="/homeworks" /> */}
                     </MenuItem>
 
-                    <MenuItem className="side"  component={<Link to="/studentinfo"/>}>
+                    <MenuItem className="side"  component={<Link to="/information"/>}>
                     <FontAwesomeIcon icon={faUser } />
                         Student Information
                        {/* <Link to="/studentinfo" /> */}
@@ -65,7 +65,7 @@ function Sidebar(){
                        {/* <Link to="/attendance" /> */}
                     </MenuItem>
 
-                    <MenuItem className="side"  component={<Link to="/Dashboard/exams"/>}>
+                    <MenuItem className="side"  component={<Link to="/exams"/>}>
                     <FontAwesomeIcon icon={faClipboard } />
                        Exams & Results
                        {/* <Link to="/exams" /> */}

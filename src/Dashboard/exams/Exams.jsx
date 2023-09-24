@@ -4,7 +4,7 @@ import * as React from "react";
 //mdb-react-ui-kit
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 // import { Table, TableRow, TableHead,TableCell} from "material-react-table";
-
+import Navbar from "../navbar/Navbar";
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -39,6 +39,7 @@ const data = [
 function Exams(){
     return (
         <div>
+        <Navbar />
         <Sidebar />
        
         <div className="exams">

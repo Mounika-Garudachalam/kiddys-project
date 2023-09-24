@@ -219,4 +219,44 @@ h1{
     
 }
 
+/* information */
 
+.info {
+    margin-left: 280px;
+    margin-right: 20px;
+    height: 100vh;
+    margin-top: 20px;
+}
+.table1{
+    padding: 10px;
+    text-align: center!important;
+    width: 100%!important;
+    color: blue!important;
+    height:100px!important;
+    font-size: 20px!important;
+    margin-top: 30px!important;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+.head-text{
+    position:relative;
+}
+.text-on-image{
+    position :absolute;
+}
+const styles  {
+    media {
+       height: 0;
+       padding-top: "56.25%";
+    }
+    card{
+        position: relative;
+    }
+    overlay {
+       position: absolute;
+       top: '20px';
+       left: '20px';
+       color: 'black';
+       background-color: 'white';
+    }
+}

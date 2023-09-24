@@ -31,26 +31,26 @@ import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 
 
 import Sidebar from "../sidebar/Sidebar";
-
+import Navbar from "../navbar/Navbar";
 
 function Home(){
     return (
     <div>
-   
+    <Navbar />
     <Sidebar />
     <div className="content">
         
         <Container>
         <Row>
         {/* card1 */}
-        <Col>
+         <Col>
             <MDBCard className="card">
             <MDBCardHeader className="header"><FontAwesomeIcon icon={faCircleInfo} />{' '}My Information</MDBCardHeader>
             <MDBCardImage className="mx-auto d-block" style={{width:"200px", height:"180px"}} src={person} alt="man image" />
             {/* mx-auto d-block for centering image */}
             <Card1 />
             </MDBCard>
-        </Col>
+        </Col> 
         {/* card2    */}
         <Col>
             <MDBCard className="card">
